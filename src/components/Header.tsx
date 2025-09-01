@@ -18,7 +18,6 @@ import {
 } from '@mui/material';
 import {
   Menu as MenuIcon,
-  Person,
   Language,
   Public,
   AccountCircle,
