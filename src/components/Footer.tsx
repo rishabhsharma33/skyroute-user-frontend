@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           {/* Copyright */}
           <div className="text-sm text-muted-foreground">
-            © 2025 FlightBook. All rights reserved.
+            © {new Date().getFullYear()} FlightBook. All rights reserved.
           </div>
 
           {/* Social Links */}
