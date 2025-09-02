@@ -1,12 +1,8 @@
-import Header from "../components/Header";
 import FlightSearch from "../components/FlightSearch";
-import Footer from "../components/Footer";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-background flex flex-col">
-      <Header />
-      
+    <div className="min-h-screen bg-background flex flex-col">      
       <main className="flex-1 bg-gradient-hero">
         <div className="container mx-auto px-4 py-8 md:py-16">
           <div className="text-center mb-8">
@@ -21,8 +17,6 @@ const Index = () => {
           <FlightSearch />
         </div>
       </main>
-
-      <Footer />
     </div>
   );
 };
